@@ -1,0 +1,559 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta http-equiv="content-style-type" content="text/css">
+<meta name="keywords" content="Graphic Design,�O���t�B�b�N�f�U�C��,�E�F�u�f�U�C��,�t���[�t�H���g,DVD,CD,video,�r�f�I">
+<meta name="description" content="DVD�ACD�AWEB���̃��C�A�E�g�f�U�C���A���S�f�U�C��">
+<title>Timer | Graphic Design</title>
+<style type="text/css">
+P {font-size:2px;font-color:#ffffff;line-height:2px}
+
+.g11 {font-size:11px;font-family:arial,helvetica,sans-serif;color:#ffffff;line-height:13px}
+.g12 {font-size:12px;font-family:arial,helvetica,sans-serif;color:#ffffff;line-height:16px}
+.g15 {font-size:15px;font-family:arial,helvetica,sans-serif;color:#ffffff;line-height:20px}
+.g16 {font-size:16px;font-family:arial,helvetica,sans-serif;color:#ffffff;line-height:21px}
+
+a{ font-size:11px;font-family:arial,helvetica,sans-serif; color:#ffffff; line-height:13px; text-decoration: none }
+a:hover { font-size:11px;font-family:arial,helvetica,sans-serif; color:#ff6600; line-height:13px; text-decoration: underline }
+
+</style>
+<script type="text/javascript" language="Javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<script type="text/javascript" language="Javascript">
+imglink_on = new Image();
+imglink_on.src = "img/rt_navibt_on.gif";
+
+imglink_off = new Image();
+imglink_off.src = "img/rt_navibt_off.gif";
+
+imgpnlink_on = new Image();
+imgpnlink_on.src = "img/pn_navisysbt_on.gif";
+
+imgpnlink_off = new Image();
+imgpnlink_off.src = "img/pn_navisysbt_off.gif";
+
+
+imgtglink_on = new Image();
+imgtglink_on.src = "img/top_gyoumu_text.gif";
+
+imgtclink_on = new Image();
+imgtclink_on.src = "img/top_conce_text.gif";
+
+imgtklink_on = new Image();
+imgtklink_on.src = "img/top_kihon_text.gif";
+
+imgtlink_off = new Image();
+imgtlink_off.src = "img/top_nijigenn.gif";
+
+
+
+
+function imagelinkOn(imageName){
+       document[imageName].src = imglink_on.src;
+}
+
+function imagelinkOff(imageName){
+       document[imageName].src = imglink_off.src;
+}
+
+function imagepnlinkOn(imageName){
+       document[imageName].src = imgpnlink_on.src;
+}
+
+function imagepnlinkOff(imageName){
+       document[imageName].src = imgpnlink_off.src;
+}
+
+
+
+
+function imagetglinkOn(imageName){
+       document[imageName].src = imgtglink_on.src;
+}
+
+function imagetclinkOn(imageName){
+       document[imageName].src = imgtclink_on.src;
+}
+
+function imagetklinkOn(imageName){
+       document[imageName].src = imgtklink_on.src;
+}
+
+function imagetlinkOff(imageName){
+       document[imageName].src = imgtlink_off.src;
+}
+</script>
+
+
+<script type="text/javascript" language="Javascript">
+Num = 0;
+maxPage = 1;
+
+function Anext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt1.src = "img/1/"+Num+".gif";
+}
+
+function Bnext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt2.src = "img/2/"+Num+".gif";
+}
+
+function Cnext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt3.src = "img/3/"+Num+".gif";
+}
+
+function Dnext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt4.src = "img/4/"+Num+".gif";
+}
+
+function Enext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt5.src = "img/5/"+Num+".gif";
+}
+
+function Fnext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt6.src = "img/6/"+Num+".gif";
+}
+
+function Gnext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt7.src = "img/7/"+Num+".gif";
+}
+
+function Hnext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt8.src = "img/8/"+Num+".gif";
+}
+
+function Inext(){
+       if (Num++ > maxPage) Num = 0;
+       document.pnpt9.src = "img/9/"+Num+".gif";
+}
+</script>
+</head>
+
+<body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0" bgcolor="#000000" onLoad="MM_preloadImages('img/rt_navibt_on.gif','img/pn_navisysbt_on.gif','img/1/1.gif','img/1/2.gif','img/2/1.gif','img/2/2.gif','img/3/1.gif','img/3/2.gif','img/4/1.gif','img/4/2.gif','img/5/1.gif','img/5/2.gif','img/6/1.gif','img/6/2.gif','img/7/1.gif','img/7/2.gif','img/8/1.gif','img/8/2.gif','img/9/1.gif','img/9/2.gif','img/top_gyoumu_text.gif','img/top_conce_text.gif','img/top_kihon_text.gif')">
+
+<table border=0 cellpadding=0 cellspacing=0 width="100%" height="100%">
+<tr>
+<td width="9" background="img/bg1.gif"><img src="img/space.gif" width="9" height="1" alt=""></td>
+<td width="21" bgcolor="#882200"><img src="img/space.gif" width="21" height="1" alt=""></td>
+<td width="730" valign="top">
+<!-- ******************�@���������J�n�@****************** -->
+<table border=0 cellpadding=0 cellspacing=0 width="730" height="60">
+<tr>
+<td width="20"><img src="img/space.gif"></td>
+<td width="690" align="right"><img src="img/since2005.gif" width="387" height="40" alt="Visual design and character design created by timer."></td>
+<td width="20"><img src="img/space.gif"></td>
+</tr>
+<tr>
+<td width="20"><img src="img/space.gif"></td>
+<td width="690" align="right"><img src="img/space.gif" width="1" height="20" alt=""></td>
+<td width="20"><img src="img/space.gif"></td>
+</tr>
+</table>
+
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="730" height="57">
+<tr>
+<td width="20"><img src="img/space.gif"></td>
+<td width="171"><img src="img/timerlogo.gif" width="171" height="41" alt=""></td>
+<td width="20"><img src="img/space.gif"></td>
+<td width="355" valign="top">
+<!-- ******************�@�E��i�r�J�n�@****************** -->
+<table border=0 cellpadding=0 cellspacing=0 width="355" height="1">
+<tr>
+<td width="355" bgcolor="#595751"><img src="img/space.gif" width="355" height="1" alt=""></td>
+</tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width="355" height="19">
+<tr>
+<td width="20"><img src="img/space.gif" width="20" height="19" alt=""></td>
+<td width="9"><img src="img/rt_navibt_off.gif" width="9" height="19" border="0" alt="" name="info"></td>
+<td width="7"><img src="img/space.gif" width="7" height="19" alt=""></td>
+<td width="93"><a href="top.html" onMouseOver="imagelinkOn('info')"  onMouseOut="imagelinkOff('info')"><img src="img/rt_navi_info.gif" width="93" height="19" border="0" alt="information"></a></td>
+<td width="156"><img src="img/rt_navi_priv.gif" width="156" height="19" border="0" alt="private works"></td>
+<td width="9"><img src="img/rt_navibt_off.gif" width="9" height="19" border="0" alt="" name="link"></td>
+<td width="7"><img src="img/space.gif" width="7" height="19" alt=""></td>
+<td width="34"><a href="link.html" onMouseOver="imagelinkOn('link')"  onMouseOut="imagelinkOff('link')"><img src="img/rt_navi_link.gif" width="34" height="19" border="0" alt="link"></a></td>
+<td width="20"><img src="img/space.gif" width="20" height="19" alt=""></td>
+</tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width="355" height="1">
+<tr>
+<td width="355" bgcolor="#595751"><img src="img/space.gif" width="355" height="1" alt=""></td>
+</tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width="355" height="19">
+<tr>
+<td width="148"><img src="img/space.gif" width="148" height="19" alt=""></td>
+<td width="22"><img src="img/rt_navi_line.gif" width="22" height="19" alt=""></td>
+<td width="9"><img src="img/rt_navibt_off.gif" width="9" height="19" border="0" alt="" name="logo"></td>
+<td width="5"><img src="img/space.gif" width="5" height="19" alt=""></td>
+<td width="28"><a href="logo.html" onMouseOver="imagelinkOn('logo')"  onMouseOut="imagelinkOff('logo')"><img src="img/rt_navi_logo.gif" width="28" height="19" border="0" alt="logo"></a></td>
+<td width="10"><img src="img/space.gif" width="10" height="19" alt=""></td>
+<td width="9"><img src="img/rt_navibt_off.gif" width="9" height="19" border="0" alt="" name="photo"></td>
+<td width="5"><img src="img/space.gif" width="5" height="19" alt=""></td>
+<td width="37"><a href="photo.html" onMouseOver="imagelinkOn('photo')"  onMouseOut="imagelinkOff('photo')"><img src="img/rt_navi_photo.gif" width="37" height="19" border="0" alt="photo"></a></td>
+<td width="10"><img src="img/space.gif" width="10" height="19" alt=""></td>
+<td width="9"><img src="img/rt_navibt_off.gif" width="9" height="19" border="0" alt="" name="oth"></td>
+<td width="5"><img src="img/space.gif" width="5" height="19" alt=""></td>
+<td width="40"><a href="underconstruction.html" onMouseOver="imagelinkOn('oth')"  onMouseOut="imagelinkOff('oth')"><img src="img/rt_navi_oth.gif" width="40" height="19" border="0" alt="others"></a></td>
+<td width="18"><img src="img/space.gif" width="18" height="19" alt=""></td>
+</tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width="355" height="1">
+<tr>
+<td width="355" bgcolor="#595751"><img src="img/space.gif" width="355" height="1" alt=""></td>
+</tr>
+</table>
+<!-- ******************�@�E��i�r�I���@****************** -->
+</td>
+<td width="144"><img src="img/space.gif"></td>
+<td width="20"><img src="img/space.gif"></td>
+</tr>
+<tr>
+<td width="20"<img src="img/space.gif"></td>
+<td width="171"><img src="img/space.gif" width="1" height="20" alt=""></td>
+<td width="20"><img src="img/space.gif"></td>
+<td width="355"><img src="img/space.gif"></td>
+<td width="144"><img src="img/space.gif"></td>
+<td width="20"><img src="img/space.gif"></td>
+</tr>
+</table>
+
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="730" height="242">
+<tr>
+<td width="35"><img src="img/space.gif" width="35"></td>
+<td width="320" valign="top">
+<!-- ******************�@�ʐ^�p�l���J�n�@****************** -->
+<table border=0 cellpadding=0 cellspacing=0 width="320" height="22">
+<tr>
+<td width="75"><img src="img/space.gif" width="75" height="10" alt=""></td>
+<td width="79"><img src="img/pn_navisysm.gif" width="79" height="10" alt=""></td>
+<td width="166"><img src="img/pn_navisys.gif" width="166" height="10" alt=""></td>
+</tr>
+<tr>
+<td width="75"><img src="img/pn_imgnavi.gif" width="75" height="12" alt=""></td>
+<td width="79"><a href="#" onMouseOver="imagepnlinkOn('pnb1')"  onMouseOut="imagepnlinkOff('pnb1')" onClick="Anext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb1"></a><img src="img/space.gif" width="2" height="10" alt=""><a href="#" onMouseOver="imagepnlinkOn('pnb2')"  onMouseOut="imagepnlinkOff('pnb2')" onClick="Bnext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb2"></a><img src="img/space.gif" width="2" height="10" alt=""><a href="#" onMouseOver="imagepnlinkOn('pnb3')"  onMouseOut="imagepnlinkOff('pnb3')" onClick="Cnext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb3"></a><img src="img/space.gif" width="2" height="10" alt=""><a href="#" onMouseOver="imagepnlinkOn('pnb4')"  onMouseOut="imagepnlinkOff('pnb4')" onClick="Dnext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb4"></a><img src="img/space.gif" width="2" height="10" alt=""><a href="#" onMouseOver="imagepnlinkOn('pnb5')"  onMouseOut="imagepnlinkOff('pnb5')" onClick="Enext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb5"></a><img src="img/space.gif" width="2" height="10" alt=""><a href="#" onMouseOver="imagepnlinkOn('pnb6')"  onMouseOut="imagepnlinkOff('pnb6')" onClick="Fnext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb6"></a><img src="img/space.gif" width="2" height="10" alt=""><a href="#" onMouseOver="imagepnlinkOn('pnb7')"  onMouseOut="imagepnlinkOff('pnb7')" onClick="Gnext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb7"></a><img src="img/space.gif" width="2" height="10" alt=""><a href="#" onMouseOver="imagepnlinkOn('pnb8')"  onMouseOut="imagepnlinkOff('pnb8')" onClick="Hnext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb8"></a><img src="img/space.gif" width="2" height="10" alt=""><a href="#" onMouseOver="imagepnlinkOn('pnb9')"  onMouseOut="imagepnlinkOff('pnb9')" onClick="Inext()"><img src="img/pn_navisysbt_off.gif" width="7" height="12" alt="" border="0" name="pnb9"></a></td>
+<td width="166"><img src="img/pn_rt.gif" width="166" height="12" alt=""></td>
+</tr>
+</table>
+
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="320" height="200">
+<tr>
+<td width="89">
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="89" height="200">
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="87" bgcolor="#595751"><img src="img/space.gif" width="87" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+</tr>
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="55" alt=""></td>
+<td width="87"><img src="img/2/0.gif" width="87" height="55" border="0" alt="2" name="pnpt2"></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="55" alt=""></td>
+</tr>
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="87" bgcolor="#595751"><img src="img/space.gif" width="87" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+</tr>
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="142" alt=""></td>
+<td width="87"><img src="img/1/0.gif" width="87" height="142" border="0" alt="1" name="pnpt1"></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="142" alt=""></td>
+</tr>
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="87" bgcolor="#595751"><img src="img/space.gif" width="87" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+</tr>
+</table>
+
+
+</td>
+<td width="147">
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="147" height="200">
+<tr>
+<td width="65" bgcolor="#595751"><img src="img/space.gif" width="65" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="81" bgcolor="#595751"><img src="img/space.gif" width="81" height="1" alt=""></td>
+</tr>
+<tr>
+<td width="65" rowspan="3"><img src="img/4/0.gif" width="65" height="106" border="0" alt="4" name="pnpt4"></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="52" alt=""></td>
+<td width="81"><img src="img/5/0.gif" width="81" height="52" border="0" alt="" name="pnpt5"></td>
+</tr>
+<tr>
+
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="81" bgcolor="#595751"><img src="img/space.gif" width="81" height="1" alt=""></td>
+</tr>
+<tr>
+
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="53" alt=""></td>
+<td width="81"><img src="img/6/0.gif" width="81" height="53" border="0" alt="6" name="pnpt6"></td>
+</tr>
+<tr>
+<td width="65" bgcolor="#595751"><img src="img/space.gif" width="65" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="81" bgcolor="#595751"><img src="img/space.gif" width="81" height="1" alt=""></td>
+</tr>
+<tr>
+<td width="147" colspan="3"><img src="img/3/0.gif" width="147" height="91" border="0" alt="3" name="pnpt3"></td>
+</tr>
+<tr>
+<td width="65" bgcolor="#595751"><img src="img/space.gif" width="65" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="81" bgcolor="#595751"><img src="img/space.gif" width="81" height="1" alt=""></td>
+</tr>
+</table>
+
+
+</td>
+<td width="84">
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="84" height="200">
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="82" bgcolor="#595751" colspan="3"><img src="img/space.gif" width="82" height="1" alt=""></td>
+
+
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+</tr>
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="131" alt=""></td>
+<td width="82" colspan="3"><img src="img/7/1.gif" width="82" height="131" border="0" alt="7" name="pnpt7"></td>
+
+
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="131" alt=""></td>
+</tr>
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="41" bgcolor="#595751"><img src="img/space.gif" width="41" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="40" bgcolor="#595751"><img src="img/space.gif" width="40" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+</tr>
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="66" alt=""></td>
+<td width="41"><img src="img/8/0.gif" width="41" height="66" border="0" alt="8" name="pnpt8"></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="66" alt=""></td>
+<td width="40"><img src="img/9/0.gif" width="40" height="66" border="0" alt="9" name="pnpt9"></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="66" alt=""></td>
+</tr>
+<tr>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="41" bgcolor="#595751"><img src="img/space.gif" width="41" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+<td width="40" bgcolor="#595751"><img src="img/space.gif" width="40" height="1" alt=""></td>
+<td width="1" bgcolor="#595751"><img src="img/space.gif" width="1" height="1" alt=""></td>
+</tr>
+</table>
+
+
+</td>
+</tr>
+</table>
+
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="320" height="10">
+<tr>
+<td width="89"><img src="img/pn_lb.gif" width="89" height="10" alt=""></td>
+<td width="2314"><img src="img/space.gif"></td>
+</tr>
+</table>
+<!-- ******************�@�ʐ^�p�l���I���@****************** -->
+</td>
+<td width="10"><img src="img/space.gif" width="10" height="1" alt=""></td>
+<td width="330" valign="top">
+<!-- ******************�@�񎟌��}�ĊJ�n�@****************** -->
+<table border=0 cellpadding=0 cellspacing=0 width="330" height="142">
+<tr>
+<td width="330" align="left"><img src="img/top_nijigenn.gif" width="330" height="142" border="0" alt="�񎟌��}�Ċe�폳��" name="niji"></td>
+</tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width="330" height="90">
+<tr>
+<td width="36" align="left"><img src="img/space.gif" width="36" height="16" border="0" alt=""></td>
+<td width="26" align="left"><img src="img/top_grid1.gif" width="26" height="16" border="0" alt=""></td>
+<td width="9" align="left"><img src="img/space.gif" width="9" height="16" border="0" alt=""></td>
+<td width="68" align="left"><img src="img/space.gif" width="68" height="16" border="0" alt=""></td>
+<td width="221" align="left"><img src="img/space.gif" width="191" height="16" border="0" alt=""></td>
+</tr>
+<tr>
+<td width="36" align="left"><img src="img/space.gif" width="36" height="19" border="0" alt=""></td>
+<td width="26" align="left"><img src="img/top_grid2.gif" width="26" height="19" border="0" alt=""></td>
+<td width="9" align="left"><img src="img/rt_navibt_off.gif" width="9" height="19" border="0" alt="" name="gyoumu"></td>
+<td width="68" align="left"><a href="#" onMouseOver="imagelinkOn('gyoumu'),imagetglinkOn('niji')"  onMouseOut="imagelinkOff('gyoumu'),imagetlinkOff('niji')"><img src="img/top_gyoumu.gif" width="68" height="19" border="0" alt="�Ɩ����e"></a></td>
+<td width="221" align="left"><img src="img/space.gif" width="191" height="19" border="0" alt=""></td>
+</tr>
+<tr>
+<td width="36" align="left"><img src="img/space.gif" width="36" height="19" border="0" alt=""></td>
+<td width="26" align="left"><img src="img/top_grid2.gif" width="26" height="19" border="0" alt=""></td>
+<td width="9" align="left"><img src="img/rt_navibt_off.gif" width="9" height="19" border="0" alt="" name="conce"></td>
+<td width="68" align="left"><a href="#" onMouseOver="imagelinkOn('conce'),imagetclinkOn('niji')"  onMouseOut="imagelinkOff('conce'),imagetlinkOff('niji')"><img src="img/top_conce.gif" width="68" height="19" border="0" alt="�R���Z�v�g"></a></td>
+<td width="221" align="left"><img src="img/space.gif" width="191" height="19" border="0" alt=""></td>
+</tr>
+<tr>
+<td width="36" align="left"><img src="img/space.gif" width="36" height="19" border="0" alt=""></td>
+<td width="26" align="left"><img src="img/top_grid3.gif" width="26" height="19" border="0" alt=""></td>
+<td width="9" align="left"><img src="img/rt_navibt_off.gif" width="9" height="19" border="0" alt="" name="kihon"></td>
+<td width="68" align="left"><a href="#" onMouseOver="imagelinkOn('kihon'),imagetklinkOn('niji')"  onMouseOut="imagelinkOff('kihon'),imagetlinkOff('niji')"><img src="img/top_kihon.gif" width="68" height="19" border="0" alt="��{�p��"></a></td>
+<td width="221" align="left"><img src="img/space.gif" width="191" height="19" border="0" alt=""></td>
+</tr>
+<tr>
+<td width="36" align="left"><img src="img/space.gif" width="36" height="17" border="0" alt=""></td>
+<td width="26" align="left"><img src="img/space.gif" width="26" height="17" border="0" alt=""></td>
+<td width="9" align="left"><img src="img/space.gif" width="9" height="17" border="0" alt=""></td>
+<td width="68" align="left"><img src="img/space.gif" width="68" height="17" border="0" alt=""></td>
+<td width="221" align="left"><img src="img/space.gif" width="191" height="17" border="0" alt=""></td>
+</tr>
+</table>
+
+<!-- ******************�@�񎟌��}�ďI���@****************** -->
+</td>
+<td width="35"><img src="img/space.gif" width="35" height="1" alt=""></td>
+</tr>
+<tr>
+<td width="35"><img src="img/space.gif" width="35" height="1"></td>
+<td width="320"><img src="img/space.gif" width="320" height="1"></td>
+<td width="10"><img src="img/space.gif"" width="10" height="1"></td>
+<td width="330"><img src="img/space.gif" width="330" height="10" alt=""></td>
+<td width="35"><img src="img/space.gif" width="35" height="1"></td>
+</tr>
+</table>
+<!-- ******************�@���i�J�n�@****************** -->
+<table border=0 cellpadding=0 cellspacing=0 width="730" height="136">
+<tr>
+<td width="35"><img src="img/space.gif" width="35" height="136" alt=""></td>
+
+<td width="196" valign="top">
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="196" height="22">
+<tr>
+<td width="196"><img src="img/top_profile.gif" width="196" height="22" alt="Profile"></td>
+</tr>
+</table>
+<table border=0 cellpadding=3 cellspacing=0 width="196" height="114">
+<tr>
+<td width="196" align="left" valign="top">
+<font class="g11">
+Designer : HIROYUKI MARUO<br>
+Tel : 090 1765 7426<br>
+NIPPA1234 EVERGREENNIPPA 803<br>
+Kouhoku Yokohama Kanagawa<br>
+E-mail : <a href="mailto:maruo@y6.dion.ne.jp"><b>maruo@y6.dion.ne.jpp</b></a>
+</font>
+</td>
+</tr>
+</table>
+
+
+</td>
+<td width="10"><img src="img/space.gif" width="10" height="136" alt=""></td>
+<td width="196">
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="196" height="22">
+<tr>
+<td width="196"><img src="img/top_equip.gif" width="196" height="22" alt="Equipment"></td>
+</tr>
+</table>
+<table border=0 cellpadding=3 cellspacing=0 width="196" height="114">
+<tr>
+<td width="196" align="left" valign="top">
+<font class="g11">
+Illustrator Photoshop FLASH Golive<br>
+CINEMA4D etc.
+</font>
+
+</td>
+</tr>
+</table>
+
+
+</td>
+
+<td width="10"><img src="img/space.gif" width="10" height="136" alt=""></td>
+
+<td width="196">
+
+
+
+<img src="img/space.gif" width="196" height="1" alt="">
+
+</td>
+
+<td width="87"><img src="img/space.gif" width="87" height="136" alt=""></td>
+</tr>
+</table>
+<!-- ******************�@���i�I���@****************** -->
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="730" height="102">
+<tr>
+<td width="20"><img src="img/space.gif" width="20" height="28" alt=""></td>
+<td width="690"><img src="img/space.gif"></td>
+<td width="20"><img src="img/space.gif"></td>
+</tr>
+<tr>
+<td width="20"><img src="img/space.gif"></td>
+<td width="690" align="left"><img src="img/space.gif"></td>
+<td width="20"><img src="img/space.gif" width="1" height="18" alt=""></td>
+</tr>
+<tr>
+<td width="20"><img src="img/space.gif"></td>
+<td width="690" align="left"><img src="img/subnavi_bt.gif" width="12" height="18" alt=""><a href="logo.html"><img src="img/subnavi_next.gif" width="77" height="18" border="0" alt="next"></a></td>
+<td width="20"><img src="img/space.gif" width="1" height="18" alt=""></td>
+</tr>
+<tr>
+<td width="20"><img src="img/space.gif"></td>
+<td width="690" align="left"><img src="img/subnavi_bt.gif" width="12" height="18" alt=""><a href="index.html"><img src="img/subnavi_backto.gif" width="77" height="18" border="0" alt="back to top"></a></td>
+<td width="20"><img src="img/space.gif" width="1" height="18" alt=""></td>
+</tr>
+<tr>
+<td width="20"><img src="img/space.gif"></td>
+<td width="690"><img src="img/space.gif"></td>
+<td width="20"><img src="img/space.gif" width="20" height="20" alt=""></td>
+</tr>
+</table>
+<!-- ******************�@���������I���@****************** -->
+</td>
+<td width="*" bgcolor="#882200"><img src="img/space.gif"></td>
+</tr>
+</table>
+
+</body>
